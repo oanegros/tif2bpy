@@ -1,0 +1,21 @@
+:root {
+    --md-primary-fg-color:        #ff8fe3;
+    --md-primary-fg-color--light: #FFAAEA;
+    --md-primary-fg-color--dark:  #9D60BD;
+  }
+.md-header__button.md-logo {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+    margin-right: 0;
+}
+.md-header__button.md-logo img, .md-header__button.md-logo jpg {
+    height: 2.1rem;
+    width: 2.1rem;
+}
+
+.md-typeset .admonition-title:before, .md-typeset summary:before{
+    background-color: #ff8fe3;
+}
